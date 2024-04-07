@@ -12,7 +12,7 @@ import {
   InterfaceTypeDefinitionNode,
   FieldDefinitionNode,
 } from "graphql";
-import { getBaseType, ModelResourceIDs } from "graphql-transformer-common";
+import { getBaseType, ModelResourceIDs } from "@aws-amplify/graphql-transformer-common";
 import { Table, CfnTable } from "aws-cdk-lib/aws-dynamodb";
 import { DynamoDbDataSource } from "aws-cdk-lib/aws-appsync";
 import { IConstruct } from "constructs";
